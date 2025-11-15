@@ -21,10 +21,588 @@ const SITE_CONFIG = {
 };
 // API站点配置
 const API_SITES = {
-   lebo:{
-      api:'https://lbapi9.com/api.php/provide/vod/at/xml',
+'葡萄资源': {
+      name: '葡萄资源',
+      
+      api: 'https://caiji.putaozy.net/inc/api.php',
+      
+    },
+    '探探资源': {
+      name: '探探资源',
+      
+      api: 'https://apittzy.com/api.php/provide/vod/at/xml',
+      
+    },
+    'KK资源网': {
+      name: 'KK资源网',
+      
+      api: 'https://kkzy.me/api.php/provide/vod/at/xmlsea',
+      
+    },
+    '色猫资源': {
+      name: '色猫资源',
+      
+      api: 'https://api.maozyapi.com/inc/api.php',
+      
+    },
+    '乐播': {
       name: '乐播',
-   },
+      
+      api: 'https://lbapi9.com/api.php/provide/vod/at/xml',
+      
+    },
+    '哥哥妹妹': {
+      name: '哥哥妹妹',
+      
+      api: 'http://www.ggmmzy.com:9999/inc/xml',
+      
+    },
+    'shayu': {
+      name: 'shayu',
+      
+      api: 'https://shayuapi.com/api.php/Seacms/vod/',
+      
+    },
+    '色屌丝': {
+      name: '色屌丝',
+      
+      api: 'http://sdszyapi.com/home/cjapi/asbb/mc10/vod/xml',
+      
+    },
+    '番号资源': {
+      name: '番号资源',
+      
+      api: 'http://fhapi9.com/api.php/provide/vod/at/xml',
+      
+    },
+    '点点娱乐': {
+      name: '点点娱乐',
+      
+      api: 'https://xx55zyapi.com/home/cjapi/ascf/mc10/vod/xml',
+      
+    },
+    '52AVAV': {
+      name: '52AVAV',
+      
+      api: 'https://52zyapi.com/home/cjapi/asda/mc10/vod/xml',
+      
+    },
+    '小姐姐资源': {
+      name: '小姐姐资源',
+      
+      api: 'https://xjjzyapi.com/home/cjapi/askl/mc10/vod/xml',
+      
+    },
+    '色窝资源': {
+      name: '色窝资源',
+      
+      api: 'https://sewozyapi.com/api.php/provide/vod/at/xml',
+      
+    },
+    '大地': {
+      name: '大地',
+      
+      api: 'https://dadiapi.com/api.php',
+      
+    },
+    '老鸭': {
+      name: '老鸭',
+      
+      api: 'https://api.apilyzy.com/api.php/provide/vod/at/xml',
+      
+    },
+    '花魁': {
+      name: '花魁',
+      
+      api: 'https://caiji.huakuiapi.com/inc/apijson_vod.php',
+      
+    },
+    '大MM资源': {
+      name: '大MM资源',
+      
+      api: 'https://www.dmmapi.com/home/cjapi/asd2c7/mc10/vod/xml',
+      
+    },
+    '精工厂资源': {
+      name: '精工厂资源',
+      
+      api: 'https://jgczyapi.com/home/cjapi/kld2/mc10/vod/xml',
+      
+    },
+    '656b916e-94fe-5b57-b300-80ccc1be1cea': {
+      name: '辣椒',
+      
+      api: 'https://apilj.com/api.php/provide/vod/at/json/',
+      
+    },
+    'cee0fca9-1808-5017-9a69-0d9013f95b47': {
+      name: '芒果',
+      
+      api: 'https://mgzyz1.com/api.php/provide/vod/?ac=list',
+      
+    },
+    'b0684274-ce9e-5d4f-bf54-f61afbdaf49d': {
+      name: '玉兔',
+      
+      api: 'https://apiyutu.com/api.php/provide/vod/?ac=list',
+      
+    },
+    '70f4c18c-3276-50f1-adaa-85614f5441eb': {
+      name: '森林',
+      
+      api: 'https://slapibf.com/api.php/provide/vod/?ac=list',
+      
+    },
+    '9d8974ba-ddfc-5e53-b008-29f37e5fc88b': {
+      name: '155',
+      
+      api: 'https://155api.com/api.php/provide/vod/?ac=list',
+      
+    },
+    'a93050f8-e282-521d-9c92-cdbbf5add205': {
+      name: '色猫',
+      
+      api: 'https://caiji.semaozy.net/inc/apijson_vod.php',
+      
+    },
+    '447fa6df-7552-5830-ab64-d45afbf39b42': {
+      name: '草榴',
+      
+      api: 'https://www.caoliuzy.com/api.php/provide/vod/at/json/',
+      
+    },
+    '8a885bf6-666b-5bbf-8669-4c7f1ffb7a71': {
+      name: '开云',
+      
+      api: 'https://kaiyunzy5.com/inc/apijson_vod.php',
+      
+    },
+    'a4d8e39c-5981-5c07-84f8-19ab9839e160': {
+      name: '黄瓜',
+      
+      api: 'https://www.avre00.com/api.php/Prodao/vod/?ac=list',
+      
+    },
+    'ffc08730-71ad-56b8-a153-e2e563e6d64c': {
+      name: '奶香',
+      
+      api: 'https://Naixxzy.com/api.php/provide/vod/?ac=list',
+      
+    },
+    'f81ab05d-3269-5fb9-97bb-1597b00e0e02': {
+      name: '伊人',
+      
+      api: 'https://api.yrzyapi.com/api.php/provide/vod/?ac=list',
+      
+    },
+    'b8b48f6e-9e96-5619-96ba-d884ef9cb442': {
+      name: '奥斯卡',
+      
+      api: 'https://aosikazy.com/api.php/provide/vod/?ac=list',
+      
+    },
+    'f951be46-17fa-5f4f-9f41-ff25d21e8d74': {
+      name: '美少女',
+      
+      api: 'https://www.msnii.com/api/xml.php',
+      
+    },
+    '54658e47-58bb-5221-bec2-82b8a3be2ec4': {
+      name: '淫水机',
+      
+      api: 'https://www.xrbsp.com/api/xml.php',
+      
+    },
+    'f951be46-17fa-5f4f-9f41-ff25d21e8d74': {
+      name: '花椒',
+      
+      api: 'https://apihjzy.com/api.php/provide/vod/at/xml/',
+      
+    },
+    'cfa8e308-0120-5e43-a937-eebb76f99626': {
+      name: '丝袜',
+      
+      api: 'https://www.siwazyw.cc/api.php/provide/vod/at/xml/',
+      
+    },
+    '34cd623c-0b62-5426-a653-9c1db4a850e8': {
+      name: '黄AV',
+      
+      api: 'https://www.pgxdy.com/api/xml.php',
+      
+    },
+    'Osu3dV': {
+      name: '香奶儿',
+      
+      api: 'https://www.gdlsp.com/api/xml.php',
+      
+    },
+    '0e3d48dd-9a80-57d5-800d-148b13983386': {
+      name: '菜云',
+      
+      api: 'https://www.caiyunjidi.com/api/vod.php',
+      
+    },
+    '37f548f0-4a9d-5da4-b3de-87552f2eb8d0': {
+      name: '壹壹资源',
+      
+      api: 'https://www.221zyz.vip/inc/api.php',
+      
+    },
+    '07b96ce7-0791-5f19-9321-ba6085145eef': {
+      name: '91麻豆',
+      
+      api: 'https://91md.me/api.php/provide/vod/at/xml/',
+    
+    },
+    '4eef8bc4-71f8-54fa-bffd-d1d3d9e77dce': {
+      name: '白嫖',
+      
+      api: 'https://www.kxgav.com/api/xml.php',
+    
+    },
+    'f881d19e-9433-56d4-9c06-4a842b280877': {
+      name: '爱播',
+      
+      api: 'https://cj.apiabzy.com/api.php/provide/vod/at/xml/',
+    
+    },
+    '54658e47-58bb-5221-bec2-82b8a3be2ec4': {
+      name: '草莓',
+      
+      api: 'https://caiji.caomeiapi.com/inc/api.php',
+    
+    },
+    'b6b384a4-43d1-5937-babe-c7af2ea5e21b': {
+      name: '小湿妹',
+      
+      api: 'https://www.afasu.com/api/xml.php',
+    
+    },
+    '20a58291-0246-5461-97b6-b080245200dd': {
+      name: '久久',
+      
+      api: 'http://99zy.pw/api.php/provide/vod/at/xml/',
+    
+    },
+    '34cd623c-0b62-5426-a653-9c1db4a850e8': {
+      name: '秀色',
+      
+      api: 'https://api.xiuseapi.com/api.php/provide/vod/at/xml',
+    
+    },
+    'cee0fca9-1808-5017-9a69-0d9013f95b47': {
+      name: '芒果',
+      
+      api: 'https://www.mgav1.cc/api.php/provide/vod/at/xml/',
+    
+    },
+    'f951be46-17fa-5f4f-9f41-ff25d21e8d74': {
+      name: '花椒',
+      
+      api: 'https://cj.apihjzy.com/inc/api.php',
+    
+    },
+    '2286c2fd-8e65-52d2-9a7a-f21ec0cae006': {
+      name: '辣椒2',
+      
+      api: 'http://api.11bat.com/api.php/provide/vod/at/xml/',
+    
+    },
+    'b0619031-953f-5e05-9d68-a621e8bc6514': {
+      name: '天堂',
+      
+      api: 'http://bttcj.com/inc/sapi.php',
+    
+    },
+    '免費AV線上看': {
+      name: '免費AV線上看',
+      
+      api: 'https://legallet.org/api.php/provide/vod/?ac=list',
+     
+    },
+    '美少女资源站': {
+      name: '美少女资源站',
+      
+      api: 'https://www.msnii.com/api/xml.php',
+     
+    },
+    '淫水机资源站': {
+      name: '淫水机资源站',
+      
+      api: 'https://www.xrbsp.com/api/xml.php',
+     
+    },
+    '香奶儿资源站': {
+      name: '香奶儿资源站',
+      
+      api: 'https://www.gdlsp.com/api/xml.php',
+     
+    },
+    '白嫖资源站': {
+      name: '白嫖资源站',
+      
+      api: 'https://www.kxgav.com/api/xml.php',
+     
+    },
+    '小湿妹资源站': {
+      name: '小湿妹资源站',
+      
+      api: 'https://www.afasu.com/api/xml.php',
+     
+    },
+    '黄AV资源站': {
+      name: '黄AV资源站',
+      
+      api: 'https://www.pgxdy.com/api/xml.php',
+     
+    },
+    '7000影视': {
+      name: '7000影视',
+      
+      api: 'https://hd7000.com/api.php/provide/vod/?ac=list',
+     
+    },
+    '色鸭资源': {
+      name: '色鸭资源',
+      
+      api: 'https://api.seyavod.com/api.php/provide/vod/?ac=list',
+      
+    },
+    '玉兔资源': {
+      name: '玉兔资源',
+      
+      api: 'https://yutuzy3.com/api.php/provide/vod/?ac=list',
+     
+    },
+    '老色逼资源站': {
+      name: '老色逼资源站',
+      
+      api: 'https://apilsbzy1.com/api.php/provide/vod/?ac=list',
+      
+    },
+    '羞涩高清': {
+      name: '羞涩高清',
+      
+      api: 'https://xxhd.online//api.php/provide/vod/?ac=list',
+     
+    },
+    '天美AV': {
+      name: '天美AV',
+      
+      api: 'https://tmav.art/api.php/provide/vod/',
+     
+    },
+    '青楼资源': {
+      name: '青楼资源',
+      
+      api: 'https://qlzy.tv/api.php/provide/vod/?ac=list',
+      
+    },
+    '色南国资源': {
+      name: '色南国资源',
+      
+      api: 'https://api.sexnguon.com/api.php/provide/vod/?ac=list',
+     
+    },
+    '极致资源': {
+      name: '极致资源',
+      
+      api: 'https://jizhiapi.com/api.php/provide/vod/?ac=list  ',
+     
+    },
+    '花魁资源': {
+      name: '花魁资源',
+      
+      api: 'https://caiji.huakuiapi.com/inc/apijson_vod.php',
+      
+    },
+    '博天堂': {
+      name: '博天堂',
+      
+      api: 'http://bttcj.com/inc/sapi.php',
+     
+    },
+    '好片资源': {
+      name: '好片资源',
+      
+      api: 'https://haopianapi.com/api.php/provide/vod/?ac=list',
+      
+    },
+    '黄色资源': {
+      name: '黄色资源',
+      
+      api: 'http://hszy.vip/api.php/provide/vod/?ac=detail',
+     
+    },
+    '开云资源': {
+      name: '开云资源',
+      
+      api: 'https://kaiyunzy1.com/inc/apijson_vod.php',
+     
+    },
+    '奥斯卡资源': {
+      name: '奥斯卡资源',
+      
+      api: 'https://aosikazy.com/api.php/provide/vod/?ac=list',
+      
+    },
+    '青楼资源': {
+      name: '青楼资源',
+      
+      api: 'https://qlzy.tv/api.php/provide/vod/?ac=list',
+      
+    },
+    '蛋蛋视频': {
+      name: '蛋蛋视频',
+      
+      api: 'https://156.249.29.8/inc/apijson_vod.php',
+     
+    },
+    '伊人资源': {
+      name: '伊人资源',
+      
+      api: 'https://api.yirenziyuan.com/api.php/provide/vod/?ac=list',
+      
+    },
+    '155资源': {
+      name: '155资源',
+      
+      api: 'https://155api.com/api.php/provide/vod/',
+     
+    },
+    '滴滴资源': {
+      name: '滴滴资源',
+      
+      api: 'https://api.ddapi.cc/api.php/provide/vod/?ac=list',
+     
+    },
+    '橘猫资源': {
+      name: '橘猫资源',
+      
+      api: 'https://to.to-long.com/api.php/provide/vod/?ac=list',
+      
+    },
+    '花色资源': {
+      name: '花色资源',
+      
+      api: 'https://api.huasezy.xyz/api.php/provide/vod/?ac=list',
+      
+    },
+    '蛋蛋视频': {
+      name: '蛋蛋视频',
+      
+      api: 'http://156.249.29.8/inc/apijson_vod.php',
+      
+    },
+    '雪豹资源': {
+      name: '雪豹资源',
+      
+      api: 'https://api.xbapi.cc/api.php/provide/vod/?ac=list',
+      
+    },
+    '好片资源': {
+      name: '好片资源',
+      
+      api: 'https://haopianapi.com/api.php/provide/vod/?ac=list',
+      
+    },
+    '奥斯卡资源': {
+      name: '奥斯卡资源',
+      
+      api: 'https://aosikazy.com/api.php/provide/vod/?ac=list',
+      
+    },
+    '花魁资源': {
+      name: '花魁资源',
+      
+      api: 'https://caiji.huakuiapi.com/inc/apijson_vod.php',
+      
+    },
+    '色色吧': {
+      name: '色色吧',
+      
+      api: 'http://secj8.com/inc/sapi.php?ac=videolist',
+     
+    },
+    '宝塔资源': {
+      name: '宝塔资源',
+      
+      api: 'https://baotazy.com/api.php/provide/vod/',
+     
+    },
+    '滴滴资源': {
+      name: '滴滴资源',
+      
+      api: 'https://api.ddapi.cc/api.php/provide/vod/at/xml',
+     
+    },
+    '蛋蛋视频': {
+      name: '蛋蛋视频',
+      
+      api: 'https://156.249.29.8/inc/apijson_vod.php',
+     
+    },
+    '草榴资源': {
+      name: '草榴资源',
+      
+      api: 'https://www.caoliuzyw.com/api.php/provide/vod/at/json/',
+     
+    },
+    '番号资源': {
+      name: '番号资源',
+      
+      api: 'http://fhapi9.com/api.php/provide/vod/',
+     
+    },
+    '葡萄资源': {
+      name: '葡萄资源',
+      
+      api: 'https://putaozy19.com/inc/api.php',
+     
+    },
+    '老鸭资源': {
+      name: '老鸭资源',
+      
+      api: 'https://api.apilyzy.com/api.php/provide/vod/',
+     
+    },
+    '咪咪资源': {
+      name: '咪咪资源',
+      
+      api: 'http://www.caiji25.com/home/cjapi/p0as/mc10/vod/json',
+     
+    },
+    '色色资源': {
+      name: '色色资源',
+      
+      api: 'http://secj8.com/inc/sapi.php',
+     
+    },
+    '色鸭资源': {
+      name: '色鸭资源',
+      
+      api: 'https://api.seyavod.com/api.php/provide/vod/',
+     
+    },
+    '天美AV': {
+      name: '天美AV',
+      
+      api: 'https://tmav.art/api.php/provide/vod/',
+     
+    },
+    'KOK资源': {
+      name: 'KOK资源',
+      
+      api: 'https://api.vodkok2.com/api.php/provide/vod/',
+     
+    },
+    'QQ传媒': {
+      name: 'QQ传媒',
+      api: 'https://qqcm.sbs/api.php/provide/vod/',
+      
+    },
+   
     dyttzy: {
         api: 'http://caiji.dyttzyapi.com/api.php/provide/vod',
         name: '电影天堂资源',
