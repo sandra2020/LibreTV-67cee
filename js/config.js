@@ -30,7 +30,7 @@ const API_SITES = {
         'U酷资源1':{
 			name: '🟡U酷┃电影',
           
-            api: 'https://api.ukuapi.com/api.php/provide/vod/'}:{
+            api: 'https://api.ukuapi.com/api.php/provide/vod/'},
 
         
           '*AIvin':{
@@ -169,10 +169,11 @@ const API_SITES = {
     },
 
 
-    {^
-       '性南国':{name: '(vpn)性南国',
     
-      api: 'https://api.sexnguon.com/api.php/provide/vod/',
+       '性南国':{
+		   name: '(vpn)性南国',
+    
+      		api: 'https://api.sexnguon.com/api.php/provide/vod/',
       
      
       
@@ -190,7 +191,7 @@ const API_SITES = {
 '*鲨鱼资源':{name:'(vpn)鲨鱼资源',api:'https://shayuapi.com/api.php/provide/vod/'},
 'afasu':{name: '(vpn)小湿妹资源',  api: 'https://www.afasu.com/api/xml.php'  },
 
-'*博天堂':{name:'(vpn)博天堂三级片','type':0,api:'http://bttcj.com/inc/sapi.php'},
+'*博天堂':{name:'(vpn)博天堂三级片',api:'http://bttcj.com/inc/sapi.php'},
 
     '易看资源-伦理':{name: '(vpn)易看三级片',
     
@@ -309,12 +310,12 @@ const API_SITES = {
        '*探探资源':{          
 			name: '*探探资源',
             api: 'https://apittzy.com/api.php/provide/vod/at/xml',
-            'playUrl': 'https://jiexi.ttbfp1.com/m3u8/?url='
+           
         },
        '*秀色资源':{          
 			name: '*秀色资源',
             api: 'https://api.xiuseapi.com/api.php/provide/vod/at/xml',
-            'playUrl': 'https://player.leyuzy.net/?url='
+            
         },
        '*色色资源':{          
 			name: '*色色资源',
